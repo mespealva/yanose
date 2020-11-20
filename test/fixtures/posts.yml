@@ -1,0 +1,19 @@
+FirstAmirPost:
+  user: AmirTestUser
+  title: Test Title For Amir
+  body: Test body of post
+
+SecondAmirPost:
+  user: AmirTestUser
+  title: Test Title For Amir Again
+  body: Test body of post again..
+
+FirstBobPost:
+  user: BobTestUser
+  title: Test Title Post For Bob
+  body: Test body of post
+
+SecondBobPost:
+  user: BobTestUser
+  title: Test Title For Bob Again
+  body: Test body of post again..

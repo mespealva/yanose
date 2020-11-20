@@ -1,0 +1,39 @@
+FirstCommentForFirstAmirPost:
+  user: AmirTestUser
+  post: FirstAmirPost
+  body: Post 1 - comment 1
+
+SecondCommentForFirstAmirPost:
+  user: AmirTestUser
+  post: FirstAmirPost
+  body: Post 1 - comment 2
+
+FirstCommentForSecondAmirPost:
+  user: AmirTestUser
+  post: SecondAmirPost
+  body: Post 2 - comment 1
+
+SecondCommentForSecondAmirPost:
+  user: AmirTestUser
+  post: SecondAmirPost
+  body: Post 2 - comment 2
+
+FirstCommentForFirstBobPost:
+  user: BobTestUser
+  post: FirstBobPost
+  body: Post 1 - comment 1
+
+SecondCommentForFirstBobPost:
+  user: BobTestUser
+  post: FirstBobPost
+  body: Post 1 - comment 2
+
+FirstCommentForSecondBobPost:
+  user: BobTestUser
+  post: SecondBobPost
+  body: Post 2 - comment 1
+
+SecondCommentForSecondBobPost:
+  user: BobTestUser
+  post: SecondBobPost
+  body: Post 2 - comment 2

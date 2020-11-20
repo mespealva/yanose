@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <%= link_to "<b>New Post</b>".html_safe, new_post_path %>
+    </tr>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">User</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= link_to post.title, post %></td>
+        <td><%= post.user.username unless post.user.blank? %></td>
+        <% if post.user == current_user %>
+          <td><%= link_to 'Edit', edit_post_path(post) %></td>
+          <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% else %>
+          <td></td>
+          <td></td>
+      <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

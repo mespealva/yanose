@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - 'spec/controllers/*'
+    - 'db/migrate/*'
+    - 'db/schema.rb'
+    - 'db/seeds.rb'
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+    - 'config/**/*'
+    - 'bin/*'
+    - 'Gemfile'
+  IgnoredPatterns: ['\A#']
+
